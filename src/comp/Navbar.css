@@ -1,0 +1,14 @@
+.navbar-toggler:focus{
+    border: none;
+}
+
+.nav-link a:hover{
+    color: green
+}
+
+.nav-item a:hover{
+    color: #FF6224;
+}
+
+ 
+

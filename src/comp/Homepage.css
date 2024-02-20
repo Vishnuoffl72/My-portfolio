@@ -1,0 +1,17 @@
+.banner{
+    height: 950px;
+    background-color: rgb(234,249,248);
+    display: flex;
+    font-size: 20px;
+}
+
+/* .container{
+    background-color: aquamarine;
+} */
+
+/* .first{
+    background-color: black;
+}
+.second{
+    background-color: blueviolet;
+} */

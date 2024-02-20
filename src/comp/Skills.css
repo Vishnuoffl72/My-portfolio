@@ -1,0 +1,24 @@
+.skillspage{
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color: #383873;
+}
+
+/* .skillcontainer{
+    background-color: orange;
+} */
+
+.skilllogos{
+    font-size: 50px;
+}
+
+.gridskill{
+    background-color: aliceblue;
+}
+
+.logobox{
+    background-color: #EAF9F8;
+    border-radius: 6px;
+    padding: 20px;
+}
