@@ -7,7 +7,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="aboutpage">
+    <div className="aboutpage" id='about'>
         <div className="container">
             <div className="row justify-content-center my-5">
                 <div className="col-4 text-center">

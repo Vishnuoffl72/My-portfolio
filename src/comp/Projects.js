@@ -12,7 +12,8 @@ const Projects = () => {
 
     
   return (
-    <div className='projectpage'>
+    
+    <div className='projectpage' id='project'>
 
         <div className="container">
             <div className="projectrow1 row align-items-center my-5">
@@ -76,6 +77,7 @@ const Projects = () => {
         
         
     </div>
+    
   )
 }
 

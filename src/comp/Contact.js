@@ -3,7 +3,8 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className='contactpage'>
+    
+    <div className='contactpage' id='contact'>
         <div className="container" style={{color:"white"}}>
             <div className="row">
                 <div className="col-md-4 mt-5">
@@ -61,6 +62,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
+    
   )
 }
 

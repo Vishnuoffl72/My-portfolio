@@ -4,7 +4,8 @@ import webdevlogo from '../logos/wedev green logo.png'
 
 const Homepage = () => {
   return (
-    <div className='banner'>
+    
+    <div className='banner' id='home'>
         <div className="container row mx-auto align-items-center">
             <div className="first col-md-6">
                 <h3>Hi There..</h3>
@@ -20,6 +21,7 @@ const Homepage = () => {
             </div>
         </div>
     </div>
+    
   )
 }
 
