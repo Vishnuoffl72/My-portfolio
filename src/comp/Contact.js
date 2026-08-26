@@ -9,8 +9,6 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    console.log(Object.fromEntries(formData));
-    console.log(process.env.WEB3FORMS_KEY)
     formData.append("access_key", process.env.REACT_APP_WEB3FORMS_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
@@ -27,7 +25,6 @@ const Contact = () => {
     else{
         alert("An error occured while sending email")
     }
-    console.log(data)
   };
 
   return (
