@@ -1,7 +1,6 @@
 import React from 'react'
 import './Homepage.css'
 import webdevlogo from '../logos/wedev green logo.png'
-import { useNavigate } from 'react-router-dom'
 
 const Homepage = () => {
     

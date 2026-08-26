@@ -44,7 +44,7 @@ const About = () => {
                 </div>
 
                 <div className="logos col-1 text-center">
-                    <a href="https://github.com/Vishnuoffl72" target="_blank">
+                    <a href="https://github.com/Vishnuoffl72" target="_blank" rel='noreferrer'>
                     <FaGithubSquare/>
                     </a>
                 </div>

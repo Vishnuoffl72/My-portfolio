@@ -1,8 +1,5 @@
 import React from 'react'
 import './Projects.css'
-import wall1 from '../logos/wall1.jpg'
-import wall2 from '../logos/wall2.jpg'
-import wall3 from '../logos/wall3.jpg'
 import gdimg1 from '../logos/gdimg1.png'
 import gdimg2 from '../logos/gdimg2.png'
 import gdimg3 from '../logos/gdimg3.png'

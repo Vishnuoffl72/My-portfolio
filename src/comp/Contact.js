@@ -19,7 +19,7 @@ const Contact = () => {
     const data = await response.json();
     setResult(data.success ? "Success!" : "Error");
     if(data.success){
-        alert("Email sent to Vishnu");
+        alert(`${result} Email sent to Vishnu`);
         event.target.reset();
     }
     else{
