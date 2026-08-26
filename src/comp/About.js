@@ -1,5 +1,5 @@
 import React from 'react'
-import dp from '../logos/mydp1.jpg'
+import dp from '../logos/NewDp.jpg'
 import './About.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -16,17 +16,17 @@ const About = () => {
             </div>
 
             <div className="row  align-items-center ">
-                <div className="col-md-6 text-center">
+                <div className="col-md-6 text-end">
                     <img src={dp} className='dpimg shadow' alt="vishnu" width={"300px"} />
                 </div>
 
                 <div className="col-md-6">
                     <h3>I'm <span style={{color:"#198754"}}>Vishnu</span></h3>
                     <p className='fw-bold' style={{color:"#FF6224"}}>Web developer</p>
-                    <p>I'am an enthusiastic Web developer living in Tirunelveli with UG degree on BE, Electronics and Communication Engineering.  I am very passionate about improving my coding skills & developing websites. Day by day improving in Full stack web development by learning new skills using MERN stack</p>
+                    <p>I'am currently working as a full-stack web developer - ASP.NET WebAPI, Angular. I am very passionate about improving my coding skills & developing websites. Having 2 years of experience</p>
                     <p><span style={{color:"#FF6224"}}>Email</span>: vishnuoffl72@gmail.com</p>
                     <p><span style={{color:"#FF6224"}}>Phone</span>: 9994620860</p>
-                    <p><span style={{color:"#FF6224"}}>Place</span>: Tirunelveli,TamilNadu</p>
+                    <p><span style={{color:"#FF6224"}}>Place</span>: Chennai, TamilNadu</p>
                 </div>
             </div>
 
@@ -38,11 +38,15 @@ const About = () => {
 
             <div className="row justify-content-center mt-1">
                 <div className="logos col-1 text-center">
+                    <a href="https://github.com/Vishnuoffl72">
                     <FaLinkedin/> 
+                    </a>
                 </div>
 
                 <div className="logos col-1 text-center">
+                    <a href="https://github.com/Vishnuoffl72" target="_blank">
                     <FaGithubSquare/>
+                    </a>
                 </div>
 
                 <div className="logos col-1 text-center">

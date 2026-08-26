@@ -5,6 +5,8 @@ import About from './comp/About';
 import Skills from './comp/Skills';
 import Projects from './comp/Projects';
 import Contact from './comp/Contact';
+import { Route, Routes, RouteModal } from 'react-router-dom';
+import PdfViewer from './comp/PdfViewer.js'
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Skills/>
       <Projects />
       <Contact/>
+      <Routes>
+            <Route path="/resume" element={<PdfViewer />} />
+          </Routes>
     </div>
   );
 }

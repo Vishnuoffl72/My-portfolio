@@ -24,11 +24,10 @@ const Projects = () => {
 
                 <div className="cover col-md-6">
                     
-                        <div className='imgscroll'>
-                            <img src={wall1} className='projimg' alt="wall1" width={"400px"}/>
-                            <img src={wall2} className='projimg' alt="wall2" width={"400px"}/>
-                            <img src={wall3} className='projimg' alt="wall3" width={"400px"}/>
-                        </div>
+                        <ul>
+                            <li>Personal Assistance with AI Integration <a href="https://github.com/Vishnuoffl72/PersonalGrowthAssistant">GitHub</a></li>
+                            <li>Personal portfolio</li>
+                        </ul>
 
                     
                     

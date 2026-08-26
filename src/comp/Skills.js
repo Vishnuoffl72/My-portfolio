@@ -37,8 +37,8 @@ const Skills = () => {
                         <div className="card">
                             <div className="card-body">
                                 <div className="skilllogos text-center"><HiOutlineCodeBracket /></div>
-                                <h5 className="card-title text-center mt-3">Web Development</h5>
-                                <p className="card-text">Build responsive websites with various tools, libraries & frameworks. Day by day learning new skills for Full stack Development</p>
+                                <h5 className="card-title text-center mt-3">Frontend Development</h5>
+                                <p className="card-text">Build responsive websites with various tools, libraries like Bootstrap, Tailwind & frameworks like Angular, React</p>
                             </div>
                         </div>
                     </div>
@@ -57,8 +57,8 @@ const Skills = () => {
                         <div className="card">
                             <div className="card-body">
                                 <div className="skilllogos text-center"><TbCodeDots /></div>
-                                <h5 className="card-title text-center mt-3">Software Developer</h5>
-                                <p className="card-text">Improving my Software development skills by learning daily with Java programing language and mastering oops concepts</p>
+                                <h5 className="card-title text-center mt-3">Backend Development</h5>
+                                <p className="card-text">Experience in Backend tech such as Asp.Net WebAPI, Nodejs. Worked in a legacy application mordanization that follows clean architecture and Microservices</p>
                             </div>
                         </div>
                     </div>
